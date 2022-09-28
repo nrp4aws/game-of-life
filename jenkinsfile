@@ -1,6 +1,9 @@
 node{
     stage('test'){
         sh 'echo hello'
-
     }
-}
+    stage('learning'){
+  gir url: 'https://github.com/nrp4aws/game-of-life.git',
+      branch: 'master'
+    }
+    }
